@@ -119,7 +119,7 @@ function pauseGame() {
     heartSound.pause();
 
     document.querySelector(".pause").style.backgroundImage =
-      "url('assets/svg/play.svg')";
+      "url('../images/play.svg')";
 
     document.querySelector("#zombie-container").classList.add("stop");
     document.querySelector("#zombie-container2").classList.add("stop");
@@ -144,7 +144,7 @@ function pauseGame() {
     backSound.play();
 
     document.querySelector(".pause").style.backgroundImage =
-      "url('assets/svg/pause.svg')";
+      "url('../images/pause.svg')";
 
     document.querySelector("#zombie-container").classList.remove("stop");
     document.querySelector("#zombie-container2").classList.remove("stop");
@@ -407,7 +407,7 @@ function stopZombie() {
   console.log("function stopZombie()");
 
   document.querySelector("#character").style.backgroundImage =
-    "url('assets/svg/character.svg')";
+    "url('../images/character.svg')";
 
   //    **unclick***
   document.querySelector("#zombie-container").style.pointerEvents = "none";
@@ -457,7 +457,7 @@ function stopZombie2() {
   console.log("function stopZombie2()");
 
   document.querySelector("#character").style.backgroundImage =
-    "url('assets/svg/character.svg')";
+    "url('../images/character.svg')";
 
   //    **unclick***
   document.querySelector("#zombie-container2").style.pointerEvents = "none";
@@ -507,7 +507,7 @@ function stopZombie3() {
   console.log("function stopZombie3()");
 
   document.querySelector("#character").style.backgroundImage =
-    "url('assets/svg/character.svg')";
+    "url('../images/character.svg')";
 
   //    **unclick***
   document.querySelector("#zombie-container3").style.pointerEvents = "none";
@@ -557,7 +557,7 @@ function stopWorker() {
   console.log("function stopWorker()");
 
   document.querySelector("#character").style.backgroundImage =
-    "url('assets/svg/character_sad.svg')";
+    "url('../images/character_sad.svg')";
 
   fireWorker.currentTime = 0;
   fireWorker.play();
@@ -611,7 +611,7 @@ function stopWorker2() {
   console.log("function stopWorker2()");
 
   document.querySelector("#character").style.backgroundImage =
-    "url('assets/svg/character_sad.svg')";
+    "url('../images/character_sad.svg')";
 
   fireWorker.currentTime = 0;
   fireWorker.play();
@@ -665,7 +665,7 @@ function stopWorker3() {
   console.log("function stopWorker3()");
 
   document.querySelector("#character").style.backgroundImage =
-    "url('assets/svg/character_sad.svg')";
+    "url('../images/character_sad.svg')";
 
   fireWorker.currentTime = 0;
   fireWorker.play();
